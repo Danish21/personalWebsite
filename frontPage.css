@@ -1,0 +1,218 @@
+
+
+html{
+	background: url(greenStones.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	 background-size: cover;
+	 opacity:1.0;
+}
+
+h1{
+
+	color: black;
+	text-align: center;
+	font-family: "Impact";
+}
+
+h2{
+
+	color: color: #3E3C3C;
+	text-align: center;
+	font-family: "Impact", cursive, sans-serif;
+}
+
+#page{
+	position: relative;
+	/*border: solid blue;*/
+	width: 100%;
+	height: 1000px;
+}
+
+.icons{
+	
+	width:100px;
+	height: 100px;
+	-webkit-transition: width .5s ease;
+	-webkit-transition: height .5s ease;
+	opacity: 1.0;
+	margin-left: 10%;
+	margin-top: 50px;
+	cursor: pointer;
+
+}
+
+@media (max-width: 875px){
+
+	h1{
+		font-size: 36px;
+	}
+
+	.icons{
+		width:70px;
+		height: 70px;
+	}
+
+}
+
+.icons:hover{
+
+	width: 150px;
+	height: 150px;
+	opacity: 1.0;
+
+}
+
+
+#meIcon{
+	
+	margin-top: 50px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+
+
+.content{
+	position: absolute;
+	top: 20px;
+	left: 39%;
+	/*border: solid red;*/
+	width: 55%;
+	height: 350px;
+	
+}
+
+#iconWrapper{
+	/*visibility: hidden;*/
+}
+
+#aboutMeWrapper{
+	background-color: white;
+	visibility: hidden;
+}
+
+#aboutMeWrapper p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#projectsWrapper{
+	/*background-color: white;*/
+	visibility: hidden;
+	
+}
+
+.projectInfo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 350px;
+	background-color: white;
+	color: black;
+	/*border: solid red;*/
+	visibility: hidden;
+}
+
+.projectInfo p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#project1{
+	/*visibility: visible;*/
+	/*color: black;*/
+	/*background-color: white;*/
+}
+
+#smartTicTacToeImage{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+}
+
+#daysToMyBirthdayImage{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 65%;
+	left: 30%;
+}
+
+#lissethUnisexImage{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 65%;
+	left: 25%;
+}
+
+#blogWrapper{
+	visibility: hidden;
+	background-color: white;
+}
+
+#blogWrapper p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.homeButton{
+	position: absolute;
+	top:90%;
+	left: 5%;
+	border-radius: 10px;
+	width: 60px;
+	height: 23px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.homeButton:hover{
+	width: 70px;
+	
+}
+
+.nextButton{
+	position: absolute;
+	top:90%;
+	left: 85%;
+	border-radius: 10px;
+	width: 60px;
+	height: 21px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.nextButton:hover{
+	width: 70px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
